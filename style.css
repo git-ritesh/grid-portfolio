@@ -7,3 +7,9 @@ body {
   padding-left: 118px;
   padding-right: 118px;
 }
+
+main {
+  display: grid;
+  grid-template-rows: repeat(3, 700px);
+  gap: 20px;
+}
