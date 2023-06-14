@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+html, body {
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  line-height: 1.5;
+}
+
 body {
   padding-left: 118px;
   padding-right: 118px;
@@ -20,6 +26,8 @@ body {
 
 .row1 .item1 {
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .row1 .item2 {
@@ -33,4 +41,23 @@ body {
 
 .row3 .item1 {
   background-color: #616161;
+}
+
+.logo {
+  padding: 64px 0;
+}
+
+.logo h1 {
+  font-weight: 400;
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.links {
+  /* text-decoration: none; */
+}
+
+.links a {
+  text-decoration: inherit;
 }
