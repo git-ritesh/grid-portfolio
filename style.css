@@ -2,3 +2,8 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body {
+  padding-left: 118px;
+  padding-right: 118px;
+}
