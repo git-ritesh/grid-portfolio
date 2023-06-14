@@ -24,6 +24,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.item {
+  padding: 0.15px 16px;
+}
+
 .row1 .item1 {
   background-color: black;
   color: white;
@@ -34,6 +38,10 @@ body {
   background-color: #607d8b;
 }
 
+.row2 .item1 {
+  background-color: #f1f1f1;
+  padding: 0;
+}
 
 .row2 .item2 {
   background-color: #3f51b5;
@@ -43,7 +51,11 @@ body {
   background-color: #616161;
 }
 
-.logo {
+.row3 .item2 {
+  background-color: #009688;
+}
+
+.logo, .links {
   padding: 64px 0;
 }
 
@@ -54,10 +66,26 @@ body {
   margin: 10px 0;
 }
 
-.links {
-  /* text-decoration: none; */
+.links a {
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+  padding: 16px 0;
 }
 
-.links a {
-  text-decoration: inherit;
+.home:hover {
+  background-color: #607d8b;
 }
+
+.mywork:hover {
+  background-color:#009688; 
+}
+
+.resume:hover {
+  background-color: #616161;
+}
+
+.contact:hover {
+  background-color: #795548;
+}
+
