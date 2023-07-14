@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin:0;
 }
 
 html, body {
   font-size: 15px;
   font-family: Verdana, sans-serif;
   line-height: 1.5;
+  
 }
 
 body {
@@ -36,6 +37,8 @@ body {
 
 .row1 .item2 {
   background-color: #607d8b;
+  color: white; 
+  text-align: center;
 }
 
 .row2 .item1 {
@@ -55,15 +58,15 @@ body {
   background-color: #009688;
 }
 
-.logo, .links {
+.padding64, .links {
   padding: 64px 0;
 }
 
-.logo h1 {
+.padding64 h1, .padding64 h1 {
   font-weight: 400;
   font-family: Segoe UI, Arial, sans-serif;
   font-size: 36px;
-  margin: 10px 0;
+  margin: 10px 0; 
 }
 
 .links a {
@@ -89,3 +92,23 @@ body {
   background-color: #795548;
 }
 
+.profile-container {
+  width: 300px;
+}
+
+.profile {
+  width: 50%;
+  border-radius: 50%;
+  border-style: none;
+  vertical-align: middle;
+  margin: 16px;
+}
+
+.padding-large {
+  padding: 12px 24px;
+  text-align: left;
+}
+
+.about-txt {
+  margin: 15px 0;
+}
