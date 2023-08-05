@@ -1,9 +1,8 @@
 * {
   box-sizing: border-box;
-  margin:0;
 }
 
-html, body {
+html {
   font-size: 15px;
   font-family: Verdana, sans-serif;
   line-height: 1.5;
@@ -11,8 +10,20 @@ html, body {
 }
 
 body {
+  /* line-height: 1.5; */
+  margin: 0;
   padding-left: 118px;
   padding-right: 118px;
+}
+/* used for the row2 Gallery Section to limit width */
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI",Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 .grid-container {
@@ -23,22 +34,23 @@ body {
 .row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  text-align: center;
 }
 
 .item {
   padding: 0.15px 16px;
 }
 
+.row1 {
+  color: white;
+}
+
 .row1 .item1 {
   background-color: black;
-  color: white;
-  text-align: center;
 }
 
 .row1 .item2 {
   background-color: #607d8b;
-  color: white; 
-  text-align: center;
 }
 
 .row2 .item1 {
@@ -62,11 +74,8 @@ body {
   padding: 64px 0;
 }
 
-.padding64 h1, .padding64 h1 {
-  font-weight: 400;
-  font-family: Segoe UI, Arial, sans-serif;
+.padding64 h1 {
   font-size: 36px;
-  margin: 10px 0; 
 }
 
 .links a {
@@ -111,4 +120,13 @@ body {
 
 .about-txt {
   margin: 15px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.row2 h2 {
+  font-size: 30px;
 }
