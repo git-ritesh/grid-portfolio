@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #607d8b;
 }
 
+.row2 .item {
+  min-height: 800px;
+}
 .row2 .item1 {
   background-color: #f1f1f1;
   padding: 0;
@@ -60,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .row2 .item2 {
   background-color: #3f51b5;
+  color:white
 }
 
 .row3 .item1 {
@@ -129,4 +133,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .row2 h2 {
   font-size: 30px;
+}
+
+.table-container {
+  padding: 0.01em 1em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+.white {
+  color: black;
+  background-color: white;
+}
+
+th:first-child, td:first-child {
+  padding-left: 1em;
+}
+
+table td, table th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
 }
