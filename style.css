@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-container {
   display: grid;
-  grid-template-rows: repeat(3, 700px);
+  grid-template-rows: 700px 1fr 700px;
 }
 
 .row {
@@ -53,9 +53,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #607d8b;
 }
 
-.row2 .item {
+.row2 {
   min-height: 800px;
+  /* border: 2px solid red; */
 }
+
 .row2 .item1 {
   background-color: #f1f1f1;
   padding: 0;
@@ -68,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .row3 .item1 {
   background-color: #616161;
+  color: #fff;
 }
 
 .row3 .item2 {
@@ -160,4 +163,14 @@ table td, table th {
   display: table-cell;
   text-align: left;
   vertical-align: top;
+}
+
+.padding16 {
+  color: white;
+  background-color: black;
+  padding: 16px;
+}
+
+footer a {
+  color: white;
 }
